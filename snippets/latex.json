@@ -309,6 +309,10 @@
 		"body": "\\mathbb{${1:${TM_SELECTED_TEXT:text}}}",
 		"description": "math blackboard bold font"
 	},
+	"mathmode": {
+		"prefix": "mm",
+		"body": "\\(${0:${TM_SELECTED_TEXT}}\\)"
+	},
 	"mathcal": {
 		"prefix": "MCA",
 		"body": "\\mathcal{${1:${TM_SELECTED_TEXT:text}}}",
