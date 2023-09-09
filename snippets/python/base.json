@@ -169,5 +169,10 @@
     "prefix": "ifmain",
     "body": "if __name__ == \"__main__\":\n\t${1:main()}$0",
     "description": "Create implicitly all the code at the top level using the __name__ special variable."
+  },
+  "# noqa: E501": {
+    "prefix": "longln",
+    "body": " # noqa: E501",
+    "description": "flake8 ignore long line error"
   }
 }
